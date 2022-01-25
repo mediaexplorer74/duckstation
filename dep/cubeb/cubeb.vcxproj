@@ -2,28 +2,28 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\msvc\vsprops\Configurations.props" />
   <ItemGroup>
-    <ClInclude Include="include\cubeb\cubeb.h" />
-    <ClInclude Include="include\cubeb\cubeb_export.h" />
-    <ClInclude Include="src\cubeb-internal.h" />
-    <ClInclude Include="src\cubeb-speex-resampler.h" />
-    <ClInclude Include="src\cubeb_array_queue.h" />
-    <ClInclude Include="src\cubeb_assert.h" />
-    <ClInclude Include="src\cubeb_log.h" />
-    <ClInclude Include="src\cubeb_mixer.h" />
-    <ClInclude Include="src\cubeb_resampler.h" />
-    <ClInclude Include="src\cubeb_resampler_internal.h" />
-    <ClInclude Include="src\cubeb_ringbuffer.h" />
-    <ClInclude Include="src\cubeb_ring_array.h" />
-    <ClInclude Include="src\cubeb_strings.h" />
-    <ClInclude Include="src\cubeb_utils.h" />
-    <ClInclude Include="src\cubeb_utils_win.h" />
-    <ClInclude Include="src\speex\arch.h" />
-    <ClInclude Include="src\speex\fixed_generic.h" />
-    <ClInclude Include="src\speex\resample_neon.h" />
-    <ClInclude Include="src\speex\resample_sse.h" />
-    <ClInclude Include="src\speex\speex_config_types.h" />
-    <ClInclude Include="src\speex\speex_resampler.h" />
-    <ClInclude Include="src\speex\stack_alloc.h" />
+    <ClInclude Include="cubeb\cubeb.h" />
+    <ClInclude Include="cubeb\cubeb_export.h" />
+    <ClInclude Include="cubeb-internal.h" />
+    <ClInclude Include="cubeb-speex-resampler.h" />
+    <ClInclude Include="cubeb_array_queue.h" />
+    <ClInclude Include="cubeb_assert.h" />
+    <ClInclude Include="cubeb_log.h" />
+    <ClInclude Include="cubeb_mixer.h" />
+    <ClInclude Include="cubeb_resampler.h" />
+    <ClInclude Include="cubeb_resampler_internal.h" />
+    <ClInclude Include="cubeb_ringbuffer.h" />
+    <ClInclude Include="cubeb_ring_array.h" />
+    <ClInclude Include="cubeb_strings.h" />
+    <ClInclude Include="cubeb_utils.h" />
+    <ClInclude Include="cubeb_utils_win.h" />
+    <ClInclude Include="speex\arch.h" />
+    <ClInclude Include="speex\fixed_generic.h" />
+    <ClInclude Include="speex\resample_neon.h" />
+    <ClInclude Include="speex\resample_sse.h" />
+    <ClInclude Include="speex\speex_config_types.h" />
+    <ClInclude Include="speex\speex_resampler.h" />
+    <ClInclude Include="speex\stack_alloc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cubeb.c" />

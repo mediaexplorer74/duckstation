@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\msvc\vsprops\Configurations.props" />
-
   <ItemGroup>
     <ClCompile Include="glslang\CInterface\glslang_c_interface.cpp" />
     <ClCompile Include="glslang\GenericCodeGen\CodeGen.cpp" />
@@ -105,19 +104,18 @@
     <ClInclude Include="StandAlone\resource_limits_c.h" />
     <ClInclude Include="StandAlone\Worklist.h" />
   </ItemGroup>
-
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7F909E29-4808-4BD9-A60C-56C51A3AAEC2}</ProjectGuid>
   </PropertyGroup>
-
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='DebugUWP|ARM64'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
   <Import Project="..\msvc\vsprops\StaticLibrary.props" />
-
   <ItemDefinitionGroup>
     <ClCompile>
       <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
-  
   <Import Project="..\msvc\vsprops\Targets.props" />
 </Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.47
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32113.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glad", "dep\glad\glad.vcxproj", "{43540154-9E1E-409C-834F-B84BE5621388}"
 EndProject
@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "dep\imgui\imgui.vcxproj", "{BB08260F-6FBC-46AF-8924-090EE71360C6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "src\common\common.vcxproj", "{EE054E08-3799-4A59-A422-18259C105FFD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcxproj", "{EE054E08-3799-4A59-A422-18259C105FFD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7F909E29-4808-4BD9-A60C-56C51A3AAEC2} = {7F909E29-4808-4BD9-A60C-56C51A3AAEC2}
 		{43540154-9E1E-409C-834F-B84BE5621388} = {43540154-9E1E-409C-834F-B84BE5621388}
@@ -20,7 +20,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "src\common\common
 		{39F0ADFF-3A84-470D-9CF0-CA49E164F2F3} = {39F0ADFF-3A84-470D-9CF0-CA49E164F2F3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "src\core\core.vcxproj", "{868B98C8-65A1-494B-8346-250A73A48C0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "core\core.vcxproj", "{868B98C8-65A1-494B-8346-250A73A48C0A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EE054E08-3799-4A59-A422-18259C105FFD} = {EE054E08-3799-4A59-A422-18259C105FFD}
 		{BB08260F-6FBC-46AF-8924-090EE71360C6} = {BB08260F-6FBC-46AF-8924-090EE71360C6}
@@ -55,7 +55,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libFLAC", "dep\libFLAC\libF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzma", "dep\lzma\lzma.vcxproj", "{DD944834-7899-4C1C-A4C1-064B5009D239}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frontend-common", "src\frontend-common\frontend-common.vcxproj", "{6245DEC8-D2DA-47EE-A373-CBD6FCF3ECE6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frontend-common", "frontend-common\frontend-common.vcxproj", "{6245DEC8-D2DA-47EE-A373-CBD6FCF3ECE6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{075CED82-6A20-46DF-94C7-9624AC9DDBEB} = {075CED82-6A20-46DF-94C7-9624AC9DDBEB}
 		{8BDA439C-6358-45FB-9994-2FF083BABE06} = {8BDA439C-6358-45FB-9994-2FF083BABE06}
@@ -67,7 +67,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frontend-common", "src\fron
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xxhash", "dep\xxhash\xxhash.vcxproj", "{09553C96-9F39-49BF-8AE6-7ACBD07C410C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scmversion", "src\scmversion\scmversion.vcxproj", "{075CED82-6A20-46DF-94C7-9624AC9DDBEB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scmversion", "scmversion\scmversion.vcxproj", "{075CED82-6A20-46DF-94C7-9624AC9DDBEB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glslang", "dep\glslang\glslang.vcxproj", "{7F909E29-4808-4BD9-A60C-56C51A3AAEC2}"
 EndProject
@@ -79,7 +79,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsamplerate", "dep\libsam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rcheevos", "dep\rcheevos\rcheevos.vcxproj", "{4BA0A6D4-3AE1-42B2-9347-096FD023FF64}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "duckstation-uwp", "src\duckstation-uwp\duckstation-uwp.vcxproj", "{E2A6CEA9-9537-4C61-B637-81F1F17EF638}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "duckstation-uwp", "duckstation-uwp\duckstation-uwp.vcxproj", "{E2A6CEA9-9537-4C61-B637-81F1F17EF638}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6245DEC8-D2DA-47EE-A373-CBD6FCF3ECE6} = {6245DEC8-D2DA-47EE-A373-CBD6FCF3ECE6}
 	EndProjectSection
@@ -301,6 +301,7 @@ Global
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.DebugUWP|ARM64.ActiveCfg = DebugUWP|ARM64
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.DebugUWP|ARM64.Build.0 = DebugUWP|ARM64
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.DebugUWP|x64.ActiveCfg = DebugUWP|x64
+		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.DebugUWP|x64.Build.0 = DebugUWP|x64
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.DebugUWP|x86.ActiveCfg = DebugUWP|Win32
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.ReleaseUWP|ARM64.ActiveCfg = ReleaseUWP|ARM64
 		{8906836E-F06E-46E8-B11A-74E5E8C7B8FB}.ReleaseUWP|ARM64.Build.0 = ReleaseUWP|ARM64

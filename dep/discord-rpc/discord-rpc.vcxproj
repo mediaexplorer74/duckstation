@@ -3,20 +3,20 @@
   <Import Project="..\msvc\vsprops\Configurations.props" />
 
   <ItemGroup>
-    <ClInclude Include="include\discord_register.h" />
-    <ClInclude Include="include\discord_rpc.h" />
-    <ClInclude Include="src\backoff.h" />
-    <ClInclude Include="src\connection.h" />
-    <ClInclude Include="src\msg_queue.h" />
-    <ClInclude Include="src\rpc_connection.h" />
-    <ClInclude Include="src\serialization.h" />
+    <ClInclude Include="discord_register.h" />
+    <ClInclude Include="discord_rpc.h" />
+    <ClInclude Include="backoff.h" />
+    <ClInclude Include="connection.h" />
+    <ClInclude Include="msg_queue.h" />
+    <ClInclude Include="rpc_connection.h" />
+    <ClInclude Include="serialization.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\connection_win.cpp" />
-    <ClCompile Include="src\discord_register_win.cpp" />
-    <ClCompile Include="src\discord_rpc.cpp" />
-    <ClCompile Include="src\rpc_connection.cpp" />
-    <ClCompile Include="src\serialization.cpp" />
+    <ClCompile Include="connection_win.cpp" />
+    <ClCompile Include="discord_register_win.cpp" />
+    <ClCompile Include="discord_rpc.cpp" />
+    <ClCompile Include="rpc_connection.cpp" />
+    <ClCompile Include="serialization.cpp" />
   </ItemGroup>
 
   <PropertyGroup Label="Globals">
