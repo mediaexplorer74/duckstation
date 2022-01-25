@@ -1,6 +1,6 @@
 # DuckStation
 
-An attempt to port DuckStation on over UWP (Win 10, SDK 19041)
+An attempt to convert the original (DuckStation) over to UWP (Win 10, SDK 19041)
 
 ## Screenshots
 
